@@ -12,6 +12,8 @@
 		22749E981FD5F07E009B1F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22749E921FD5F07E009B1F2D /* Main.storyboard */; };
 		22749E991FD5F07E009B1F2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22749E941FD5F07E009B1F2D /* AppDelegate.swift */; };
 		229822632035CC5200873A30 /* FamousPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229822622035CC5200873A30 /* FamousPeopleViewController.swift */; };
+		583D8185203C9B1700D098E6 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D8184203C9B1700D098E6 /* DatabaseManager.swift */; };
+		583D8187203CBD6600D098E6 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583D8186203CBD6600D098E6 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		22749E941FD5F07E009B1F2D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22749E951FD5F07E009B1F2D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		229822622035CC5200873A30 /* FamousPeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousPeopleViewController.swift; sourceTree = "<group>"; };
+		583D8184203C9B1700D098E6 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		583D8186203CBD6600D098E6 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		D2A5F2001F4A9144005CD714 /* FamousPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FamousPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -39,7 +43,9 @@
 			isa = PBXGroup;
 			children = (
 				22749E941FD5F07E009B1F2D /* AppDelegate.swift */,
+				583D8184203C9B1700D098E6 /* DatabaseManager.swift */,
 				229822622035CC5200873A30 /* FamousPeopleViewController.swift */,
+				583D8186203CBD6600D098E6 /* CustomTableViewCell.swift */,
 				22749E901FD5F07E009B1F2D /* LaunchScreen.xib */,
 				22749E911FD5F07E009B1F2D /* Assets.xcassets */,
 				22749E921FD5F07E009B1F2D /* Main.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				229822632035CC5200873A30 /* FamousPeopleViewController.swift in Sources */,
 				22749E991FD5F07E009B1F2D /* AppDelegate.swift in Sources */,
+				583D8187203CBD6600D098E6 /* CustomTableViewCell.swift in Sources */,
+				583D8185203C9B1700D098E6 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 573K3JNJS6;
 				INFOPLIST_FILE = "$(SRCROOT)/FamousPeople/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.FamousPeople";
@@ -284,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 573K3JNJS6;
 				INFOPLIST_FILE = "$(SRCROOT)/FamousPeople/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lighthouse-labs.FamousPeople";
